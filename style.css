@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Indie Flower", cursive;
+  scroll-behavior: smooth;
+}
+
+.header-image {
+  height: 100vh;
+  background-image: url(img/leo-wieling-bG8U3kaZltE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  background-color: rgba(41, 38, 61, 0.767);
+  position: absolute;
+  right: 32px;
+  left: 32px;
+  top: 16px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-link {
+  color: rgba(224, 205, 220, 0.34);
+  text-decoration: none;
+  margin-left: 10px;
+}
+.menu-link:hover {
+  text-decoration: underline;
+  color: rgb(87, 244, 55);
+  text-shadow: 2px 2px 2px;
+}
+
+.headline {
+  position: absolute;
+  left: 34px;
+  top: 190px;
+  color: rgb(99, 95, 109);
+  font-size: 38px;
+}
+.container-playlist {
+  background-color: rgba(56, 13, 30, 0.784);
+  min-height: 100vh;
+
+}
+
+.playlist {
+  background-color: black;
+  color: rgb(77, 221, 49);
+  
+}
+.container-genre {
+  border: 2px solid rgb(75, 188, 22);
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.container-genre iframe {
+  border-radius: 20px;
+  width: 400px;
+}
+.legend {
+  color: rgb(63, 8, 8);
+}
+
+.description-section {
+  height: 50vh;
+  padding: 30px 100px;
+  display: flex;
+}
+.button {
+  background-color: rgb(87, 244, 55);
+  padding: 8px;
+  border-radius: 8px;
+  color: rgba(38, 5, 5, 0.684);
+  box-shadow: 18px 15px 15px rgba(0, 0, 0, 0.8);
+}
+
+.button:hover {
+  color: rgb(54, 10, 8);
+}
+
+.half-width {
+
+ padding: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+}
